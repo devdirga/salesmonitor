@@ -31,7 +31,7 @@ export default function TodoList() {
         <div className="notification is-warning small">
           <DonutChart value={50} greeting={total} />
           <br/>
-          Dana terkumpul <strong>Rp {money} ,- <span role="img" aria-label="dollar">💰</span></strong> .
+          Dana <strong>Rp {money} ,- <span role="img" aria-label="dollar">💰</span></strong> .
         </div>
         <table className="table is-fullwidth">
           <thead>
