@@ -8,21 +8,21 @@ export default function TodoList() {
   const [todoList, setTodoList] = useState()
   const [zerotodo] = useState({text:'NoData', key:0, count:0 })
   const [total, setTotal]= useState(0)
-  const [money, setMoney] = useState(0)
+  // const [money, setMoney] = useState(0)
   useEffect(() => {
 
     firebase.database().ref('messages').on('value', (snapshot) => {
       const todos = snapshot.val()
       const todoList = []
       let count = 0
-      let _money = 0
+      // let _money = 0
       for (let id in todos) {
         todoList.push({ id, ...todos[id] })
         count = count + (parseInt(todos[id].count))
-        _money = _money + (parseInt(todos[id].count) * 1000)
+        // _money = _money + (parseInt(todos[id].count) * 1000)
       }
       setTotal(count)
-      setMoney(_money)
+      // setMoney(_money)
       setTodoList(todoList)
     })
 
