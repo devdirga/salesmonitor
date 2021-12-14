@@ -32,7 +32,7 @@ export default function TodoList() {
       <div className="container">        
         
         <div className="notification is-warning small">
-          <strong><span role="img" aria-label="UndianBerhadiah">🎁</span></strong></br>
+          {/* <strong><span role="img" aria-label="UndianBerhadiah">🎁</span></strong><br/> */}
           
           <DonutChart value={50} greeting={total} />
           <br/>
