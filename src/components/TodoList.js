@@ -31,7 +31,7 @@ export default function TodoList() {
   return (
       <div className="container">        
         
-        <div className="notification is-warning small">
+        <div className="notification is-primary small">
           <strong><span role="img" aria-label="UndianBerhadiah">🎁</span></strong><br/>
           
           <DonutChart value={50} greeting={total} />
