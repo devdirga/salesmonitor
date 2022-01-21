@@ -29,9 +29,9 @@ export default function TodoList() {
   },[])
 
   return (
-      <div className="container">        
+      <div>
         
-        <div className="notification is-primary small">
+        <div className="notification is-link small">
           <strong><span role="img" aria-label="UndianBerhadiah">🎁</span></strong><br/>
           
           <DonutChart value={50} greeting={total} />
