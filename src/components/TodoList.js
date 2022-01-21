@@ -29,7 +29,7 @@ export default function TodoList() {
   },[])
 
   return (
-      <div>
+      <div className="container">        
         
         <div className="notification is-link small">
           <strong><span role="img" aria-label="UndianBerhadiah">🎁</span></strong><br/>
