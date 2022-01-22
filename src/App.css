@@ -62,7 +62,7 @@
 .donutchart-text {
   /* font-family: "Roboto"; */
   font-family: "Amatic SC", cursive;
-  font-size: 25px;
+  font-size: 20px;
   fill: #607580;
 }
 .donutchart-text-val {
@@ -83,7 +83,7 @@ body {
   /* padding: 40px; */
   /* font-family: "Roboto"; */
   font-family: "Amatic SC", cursive;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
 }
 
