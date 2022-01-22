@@ -61,6 +61,7 @@
 
 .donutchart-text {
   /* font-family: "Roboto"; */
+  font-family: "Amatic SC", cursive;
   fill: #607580;
 }
 .donutchart-text-val {
@@ -80,6 +81,7 @@
 body {
   /* padding: 40px; */
   /* font-family: "Roboto"; */
+  font-family: "Amatic SC", cursive;
   text-align: center;
 }
 
