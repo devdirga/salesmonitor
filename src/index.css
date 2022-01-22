@@ -5,7 +5,8 @@ body {
     sans-serif; */
 
   /* font-family: "Roboto", sans-serif; */
-  font-family: "Amatic SC", cursive;
+  /* font-family: "Amatic SC", cursive; */
+  font-family: "Noto Serif", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
